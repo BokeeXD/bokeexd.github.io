@@ -7,14 +7,19 @@ git clone https://github.com/bikass/kora.git
 git clone https://gitlab.com/tearch-linux/artworks/themes-and-icons/adwaita-dark-amoled.git
 
 mkdir ~/.icewm
+mkdir ~/.icewm/themes
+mkdir ~/.config/rofi
+mkdir ~/.themes
+mkdir ~/.themes/adwaita-dark-amoled
+mkdir ~/.icons
 mkdir ~/.config/rofi
 
 cp ~/adwaita-dark-amoled/* ~/.themes/adwaita-dark-amoled
 cp ~/kora/kora/* ~/.themes/kora
-cp ~/kora/kora-light/* ~/.themes/kora-light
-cp ~/kora/kora-pgrey/* ~/.themes/kora-pgrey
-cp ~/kora/kora-light-panel/* ~/.themes/kora-light-panel
-cp ~/elytraos/icewm/configs/*
+cp ~/kora/kora-light/* ~/.icons/kora-light
+cp ~/kora/kora-pgrey/* ~/.icons/kora-pgrey
+cp ~/kora/kora-light-panel/* ~/.icons/kora-light-panel
+cp ~/elytraos/icewm/configs/* ~/.icewm
 cp ~/elytraos/xinitrc ~/.xinitrc
 cp ~/elytraos/rofi/config.rasi ~/.config/rofi
 tar -xvf ~/elytraos/icewm/themes/neonoid.tar ~/elytraos/icewm/themes
