@@ -23,12 +23,12 @@ cp ~/kora/kora/* ~/.themes/kora
 cp ~/kora/kora-light/* ~/.icons/kora-light
 cp ~/kora/kora-pgrey/* ~/.icons/kora-pgrey
 cp ~/kora/kora-light-panel/* ~/.icons/kora-light-panel
-cp ~/elytraos/icewm/configs/* ~/.icewm
-cp ~/elytraos/xinitrc ~/.xinitrc
-cp ~/elytraos/rofi/config.rasi ~/.config/rofi
-tar -xvf ~/elytraos/icewm/themes/neonoid.tar ~/elytraos/icewm/themes
-cp ~/elytraos/icewm/themes/* ~/.icewm/themes
-cp ~/elytraos/appearance/gtkrc-2.0 ~/.gtkrc-2.0
+cp icewm/configs/* ~/.icewm
+cp xinitrc/xinitrc.txt ~/.xinitrc
+cp rofi/config.rasi ~/.config/rofi
+tar -xvf icewm/themes/neonoid.tar ~/elytraos/icewm/themes
+cp icewm/themes/* ~/.icewm/themes
+cp appearance/gtkrc-2.0 ~/.gtkrc-2.0
 
 rm -rf ~/adwaita-dark-amoled
 rm -rf ~/kora

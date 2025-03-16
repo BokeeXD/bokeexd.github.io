@@ -1,0 +1,10 @@
+lxpolkit &
+
+xfce4-clipman &
+
+redshift -l 44.9799:16.7140 -t 5500:3500 -g 0.8 -r &
+
+exec icewm-session
+
+
+
