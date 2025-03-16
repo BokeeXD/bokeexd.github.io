@@ -2,17 +2,21 @@
 
 sudo pacman -S --noconfirm git xorg xorg-xinit icewm rofi lxterminal xfce4-clipman-plugin xfce4-screenshooter gpicview redshift lxsession btop lxtask engrampa
 
-git clone https://github.com/bikass/kora.git
+git clone https://github.com/bikass/kora.git ~/
 
-git clone https://gitlab.com/tearch-linux/artworks/themes-and-icons/adwaita-dark-amoled.git
+git clone https://gitlab.com/tearch-linux/artworks/themes-and-icons/adwaita-dark-amoled.git ~/
 
 mkdir ~/.icewm
+mkdir ~/.config
 mkdir ~/.icewm/themes
 mkdir ~/.config/rofi
 mkdir ~/.themes
 mkdir ~/.themes/adwaita-dark-amoled
 mkdir ~/.icons
-mkdir ~/.config/rofi
+mkdir ~/.icons/kora
+mkdir ~/.icons/kora-light
+mkdir ~/.icons/kora-pgrey
+mkdir ~/.icons/kora-light-panel
 
 cp ~/adwaita-dark-amoled/* ~/.themes/adwaita-dark-amoled
 cp ~/kora/kora/* ~/.themes/kora
